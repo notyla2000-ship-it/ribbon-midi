@@ -1,5 +1,6 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-package="com.example.ribbonmidi">
+<?xml version="1.0" encoding="utf-8"?>
+‹manifest xmlns:android="http://schemas.android.com/apk/res/android"
+package-"com.example.ribbonmidi">
 <uses-feature android:name="android.software.midi" android:required="true" />
 
 <application
@@ -16,3 +17,4 @@ package="com.example.ribbonmidi">
         </intent-filter>
     </activity>
 </application>
+</manifest>
