@@ -1,0 +1,16 @@
+<uses-feature android:name="android.software.midi" android:required="true" />
+
+<application
+    android:allowBackup="true"
+    android:label="Ribbon MIDI"
+    android:theme="@style/Theme.AppCompat.NoActionBar">
+    <activity
+        android:name=".MainActivity"
+        android:exported="true"
+        android:screenOrientation="sensorLandscape">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+</application>
